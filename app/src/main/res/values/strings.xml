@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Eatsin</string>
+    <string name="title_home">Eatsin</string>
+    <string name="title_search">Search</string>
+    <string name="title_profile">Profile</string>
+    <string name="title_settings">Setting</string>
+    <string name="title_edit_profile">Edit Profile</string>
+    <string name="toolbar_setting_name">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

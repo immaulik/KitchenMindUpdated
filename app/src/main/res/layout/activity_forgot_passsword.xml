@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="10dp"
+    android:orientation="vertical"
+    android:background="?attr/backgroundcolor"
+    tools:context=".Activities.ForgotPasssword">
+
+    <TextView
+        android:text="Forgot Password!!! Don't worry enter your credentials here..."
+        android:layout_width="wrap_content"
+        android:textSize="20dp"
+        android:fontFamily="@font/amiri"
+        android:textColor="?attr/textcolor"
+        android:layout_height="wrap_content"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:errorEnabled="true"
+        android:textColorHint="?attr/textcolor"
+        android:layout_marginTop="15dp"
+        app:hintTextAppearance="@style/TextLabel"
+        android:id="@+id/forgotPasswordEditText">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:textColor="?attr/textcolor"
+            android:fontFamily="@font/amiri"
+            android:hint="Enter your email address"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:layout_marginTop="15dp"
+        android:text="Submit"
+        android:id="@+id/btnSubmit"
+        android:background="@drawable/btn"
+        android:textColor="?attr/textcolor"
+        android:onClick="forgotPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

@@ -1,0 +1,119 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Light / Day Mode -->
+    <style name="LightTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+
+        <item name="colorPrimary">#2196F3</item>
+        <item name="colorPrimaryDark">#1976D2</item>
+        <item name="colorAccent">#03DAC5</item>
+        <item name="backgroundcolor">#fcfcfc</item>
+        <item name="cardbackground">#ffffff</item>
+        <item name="recyclerBackground">#EAEAEA</item>
+        <item name="textcolor">#000000</item>
+        <item name="tintcolor">#000000</item>
+        <item name="catItemColor">#DADADA</item>
+        <item name="viewColor">#000</item>
+        <item name="civ_border_color">#000</item>
+        <item name="buttoncolor">#2196F3</item>
+        <item name="image_home">@drawable/ic_home_black_24dp</item>
+        <item name="image_search">@drawable/ic_dashboard_black_24dp</item>
+        <item name="image_profile">@drawable/ic_notifications_black_24dp</item>
+        <item name="homeImage">@drawable/ic_home_white_24dp</item>
+        <item name="searchIconImage">@drawable/ic_search_black_24dp</item>
+        <item name="android:windowAnimationStyle">@style/WindowAnimationTrasmition</item>
+
+    </style>
+
+
+    <style name="CustomDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:background">?attr/cardbackground</item>
+        <item name="android:textColor">?attr/textcolor</item>
+        <item name="android:windowBackground">?attr/backgroundcolor</item>
+        <item name="android:windowFrame">@null</item>
+    </style>
+
+    <style name="SearchViewStyle" parent="Widget.AppCompat.SearchView">
+        <item name="android:textColor">?attr/textcolor</item>
+        <item name="android:editTextColor">?attr/textcolor</item>
+        <item name="hintTextAppearance">?attr/textcolor</item>
+        <item name="background">?attr/cardbackground</item>
+        <item name="android:textColorHint">?attr/textcolor</item>
+    </style>
+
+
+    <style name="myCustomMenuTextAppearance" parent="@android:style/TextAppearance.Widget.IconMenu.Item">
+        <item name="android:textColor">?attr/textcolor</item>
+    </style>
+
+    <style name="AppTheme2" parent="Theme.AppCompat.Light.NoActionBar">
+
+        <item name="colorPrimary">#2196F3</item>
+        <item name="colorPrimaryDark">#1976D2</item>
+        <item name="colorAccent">#03DAC5</item>
+        <item name="backgroundcolor">#fcfcfc</item>
+        <item name="cardbackground">#ffffff</item>
+        <item name="textcolor">#040404</item>
+        <item name="tintcolor">#000000</item>
+        <item name="buttoncolor">#2196F3</item>
+        <item name="image_home">@drawable/ic_home_black_24dp</item>
+        <item name="image_search">@drawable/ic_dashboard_black_24dp</item>
+        <item name="image_profile">@drawable/ic_notifications_black_24dp</item>
+        <item name="searchIconImage">@drawable/ic_search_black_24dp</item>
+    </style>
+
+
+
+    <style name="WindowAnimationTrasmition">
+        <item name="android:windowEnterAnimation">@android:anim/fade_in</item>
+        <item name="android:windowExitAnimation">@android:anim/fade_out</item>
+    </style>
+
+    <style name="TextLabel" parent="TextAppearance.Design.Hint">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="Widget.BottomNavigationView"
+        parent="Widget.Design.BottomNavigationView">
+        <item name="fontFamily">@font/amiri</item>
+    </style>
+
+    <!-- Dark / Night Mode -->
+    <style name="DarkTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">#212121</item>
+        <item name="colorPrimaryDark">#000000</item>
+        <item name="colorAccent">#03DAC5</item>
+        <item name="backgroundcolor">#303030</item>
+        <item name="cardbackground">#424242</item>
+        <item name="textcolor">#ffffff</item>
+        <item name="tintcolor">#ffffff</item>
+        <item name="buttoncolor">#2196F3</item>
+        <item name="viewColor">#fff</item>
+        <item name="catItemColor">#616365</item>
+        <item name="civ_border_color">#fff</item>
+        <item name="homeImage">@drawable/ic_home_white_24dp</item>
+        <item name="image_home">@drawable/ic_home_white_24dp</item>
+        <item name="image_search">@drawable/ic_dashboard_white_24dp</item>
+        <item name="image_profile">@drawable/ic_notifications_white_24dp</item>
+        <item name="searchIconImage">@drawable/ic_search_white_24dp</item>
+        <item name="android:windowAnimationStyle">@style/WindowAnimationTrasmition</item>
+    </style>
+
+
+    <style name="RobotoBoldTextAppearance">
+        <item name="android:fontFamily">@font/amiri</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="Custom" parent="android:Theme.DeviceDefault.Dialog">
+        <item name="DialogTitleAppearance">@android:style/TextAppearance.Medium</item>
+        <item name="DialogTitleText">Please Wait</item>
+        <item name="DialogSpotColor">@android:color/holo_orange_dark</item>
+        <item name="DialogSpotCount">8</item>
+    </style>
+
+
+</resources>
